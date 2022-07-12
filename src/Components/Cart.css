@@ -1,0 +1,26 @@
+.cart-card{
+    margin: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart-card img{
+    object-fit: cover;
+    width: 10vh;
+    border-radius: 12px;
+    margin: 10px;
+}
+.cart-name{
+    width: 30%;
+}
+.cart-price{
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 12px;
+    font-weight: 700;
+}
+.tag{
+    height: 2vh;
+}

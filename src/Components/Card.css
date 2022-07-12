@@ -1,0 +1,47 @@
+.card-bg{
+    margin: 20px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 5px 10px 20px #d8d8d8;
+    height: 50vh;
+    width: 30vh;
+    padding: 30px 10px;
+    text-align: center;
+}
+
+img{
+    margin: 5%;
+    width: 60%;
+    height: 45%;
+    object-fit: cover;
+    overflow: hidden;
+}
+p{
+    font-size: 14px;
+}
+.card-name{
+    width: 30vh;
+    height: 5vh;
+}
+.price{
+    font-weight: 700;
+}
+.order{
+    position: fixed;
+}
+button{
+    padding: 12px 20px;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    background-color: rgb(114, 151, 237);
+    border: none;
+    border-radius: 12px;
+}
+
+button:hover{
+    background-color: rgb(183, 93, 243) ;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
